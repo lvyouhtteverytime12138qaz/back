@@ -2,9 +2,6 @@ package com.neuedu.pojo;
 
 import java.util.Date;
 
-/**
- * Created by Administrator on 2019/4/1.
- */
 public class User {
     private Integer id;
 

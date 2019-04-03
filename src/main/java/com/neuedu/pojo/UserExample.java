@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by Administrator on 2019/4/1.
- */
 public class UserExample {
     protected String orderByClause;
 

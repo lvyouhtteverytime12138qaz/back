@@ -32,8 +32,8 @@
             </list>
         </property>
     </bean>
-    <mvc:annotation-driven >
-        <mvc:message-converters register-defaults="false">
+    <mvc:annotation-driven > <!--开启注解驱动-->
+        <mvc:message-converters register-defaults="false"> <!--消息转换器-->
             <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
                 <property name="supportedMediaTypes">
                     <list>

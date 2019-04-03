@@ -2,13 +2,9 @@ package com.neuedu.dao;
 
 import com.neuedu.pojo.User;
 import com.neuedu.pojo.UserExample;
+import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
-import java.util.List;
-
-/**
- * Created by Administrator on 2019/4/1.
- */
 public interface UserMapper {
     long countByExample(UserExample example);
 

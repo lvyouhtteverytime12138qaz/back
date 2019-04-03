@@ -17,8 +17,8 @@ public class DESUTIL {
     static {
         try {
             KeyGenerator keyGenerator = KeyGenerator.getInstance("DES");
-            SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG");
-            secureRandom.setSeed(KEYSTR.getBytes());
+            SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG"); /*两个算法*/
+            secureRandom.setSeed(KEYSTR.getBytes()); /*设置算法因子*/
             keyGenerator.init(secureRandom);
             key = keyGenerator.generateKey();
         } catch (NoSuchAlgorithmException e) {
